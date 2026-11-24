@@ -1,0 +1,11 @@
+Robot deployment snapshot
+Captured from: guest@10.192.1.2
+Capture date: 2026-11-23
+
+Contents:
+- rl-deploy-with-python/: complete deployment repository copied recursively, including .git history, controller sources, docs, model/config files, and bundled SDK resources.
+- autolaunch/: robot startup script and existing log copied for later reference.
+
+The robot's current WF_TRON1A params.yaml was already changed before this snapshot to obs_history_length=10 and encoder_output_size=3. Its original pre-edit copy is included as params.yaml.bak-20261123-204453.
+
+No files were modified on the robot during this download. The checked main.py, WheelfootController.py, current params.yaml, backup params.yaml, and existing isaaclab ONNX files matched SHA-256 checksums between robot and local snapshot.
